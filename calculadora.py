@@ -39,4 +39,6 @@ def calculadora():
         print(f"Error: {e}")
 
 # Llamamos a la función principal
-calculadora()
+if __name__ == "__main__":  # Condicion que evita que la función calculadora() se ejecute automáticamente cuando se importa el archivo.
+    calculadora()
+
